@@ -11,5 +11,5 @@ EPD Pico Kit (EPDK) is our new development kit consisting of [EPD Extension boar
 Customized example based of [EPD_Driver Demo](https://github.com/PervasiveDisplays/EPD_Driver_GU_small/tree/main/examples/Demo_271)
 
 ## MicroPython example
-
+![Micropython](micropython/micropython.png)
 Ported from [driver](https://github.com/PervasiveDisplays/EPD_Driver_GU_small)
