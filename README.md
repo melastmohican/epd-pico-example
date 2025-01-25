@@ -13,3 +13,13 @@ Customized example based of [EPD_Driver Demo](https://github.com/PervasiveDispla
 ## MicroPython example
 ![Micropython](micropython/micropython.png)
 Ported from [driver](https://github.com/PervasiveDisplays/EPD_Driver_GU_small)
+
+## CircuitPython example
+![CircuitPython](circuitpython/blinka.bmp)
+
+EPD driver depends on:
+* [Adafruit CircuitPython EPD](https://github.com/adafruit/Adafruit_CircuitPython_EPD)
+* [font5x8.bin found in the examples bundle](https://github.com/adafruit/Adafruit_CircuitPython_Bundle)
+* [Blinka bitmap](https://cdn-learn.adafruit.com/assets/assets/000/057/705/original/adafruit_products_blinka.bmp) 
+
+Customized example based of [CircuitPython displayio driver for Pervasive Displays Spectra-based iTC/COG ePaper Displays](https://github.com/fergbrain/Fergcorp_CircuitPython_PDISpectra)
