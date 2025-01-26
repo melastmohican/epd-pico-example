@@ -27,10 +27,22 @@ Customized example based of [CircuitPython displayio driver for Pervasive Displa
 ## Rust example
 ![Rust](rust/examples/ferris_bw.bmp)
 
+
 Example depends on:
 * [Driver for Spectra EPDs from Pervasive Displays](https://github.com/andber1/epd-spectra)
 
-To run exampl:
+Original example was for tri-color EPD so `ferris.bmp` was converted to `ferris_bw.bmp`
+```bash
+magick convert ferris.bmp -negate -threshold 0 -negate ferris_bw.bmp
+```
+
+Then [convert_bmp.py](https://github.com/andber1/epd-spectra/blob/main/examples/convert_bmp.py) was used to regenerate image data code:
+```rust
+const FERRIS_BW_WIDTH: u32 = 150;
+const FERRIS_BW_IMG: &[u8] = &[...]
+```
+
+To run example:
 1. Make sure Pico is in bootloader node
 2. Execute command:
     ```bash
