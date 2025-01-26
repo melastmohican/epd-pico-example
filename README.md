@@ -23,3 +23,16 @@ EPD driver depends on:
 * [Blinka bitmap](https://cdn-learn.adafruit.com/assets/assets/000/057/705/original/adafruit_products_blinka.bmp) 
 
 Customized example based of [CircuitPython displayio driver for Pervasive Displays Spectra-based iTC/COG ePaper Displays](https://github.com/fergbrain/Fergcorp_CircuitPython_PDISpectra)
+
+## Rust example
+![Rust](rust/examples/ferris_bw.bmp)
+
+Example depends on:
+* [Driver for Spectra EPDs from Pervasive Displays](https://github.com/andber1/epd-spectra)
+
+To run exampl:
+1. Make sure Pico is in bootloader node
+2. Execute command:
+    ```bash
+    cargo run --example epdk
+    ```
